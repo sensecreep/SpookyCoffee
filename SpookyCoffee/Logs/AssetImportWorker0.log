@@ -15,7 +15,7 @@ D:/GitHubRepositories/SpookyCoffee/SpookyCoffee
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61078
+61470
 Successfully changed project path to: D:/GitHubRepositories/SpookyCoffee/SpookyCoffee
 D:/GitHubRepositories/SpookyCoffee/SpookyCoffee
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,18 +49,18 @@ D:/GitHubRepositories/SpookyCoffee/SpookyCoffee
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24452]  Target information:
+Player connection [23800]  Target information:
 
-Player connection [24452]  * "[IP] 26.52.57.84 [Port] 0 [Flags] 2 [Guid] 1193642580 [EditorId] 1193642580 [Version] 1048832 [Id] WindowsEditor(7,Kodis) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [23800]  * "[IP] 26.52.57.84 [Port] 0 [Flags] 2 [Guid] 2264391903 [EditorId] 2264391903 [Version] 1048832 [Id] WindowsEditor(7,Kodis) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24452]  * "[IP] 172.18.0.1 [Port] 0 [Flags] 2 [Guid] 1193642580 [EditorId] 1193642580 [Version] 1048832 [Id] WindowsEditor(7,Kodis) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [23800]  * "[IP] 172.18.0.1 [Port] 0 [Flags] 2 [Guid] 2264391903 [EditorId] 2264391903 [Version] 1048832 [Id] WindowsEditor(7,Kodis) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24452]  * "[IP] 192.168.230.164 [Port] 0 [Flags] 2 [Guid] 1193642580 [EditorId] 1193642580 [Version] 1048832 [Id] WindowsEditor(7,Kodis) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [23800]  * "[IP] 192.168.230.164 [Port] 0 [Flags] 2 [Guid] 2264391903 [EditorId] 2264391903 [Version] 1048832 [Id] WindowsEditor(7,Kodis) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24452] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [24452] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23800] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [23800] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 6.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.51f1 (9f9d16c45e54)
 [Subsystems] Discovering subsystems at path D:/UnityEditor/2022.3.51f1/Editor/Data/Resources/UnitySubsystems
@@ -76,44 +76,44 @@ Initialize mono
 Mono path[0] = 'D:/UnityEditor/2022.3.51f1/Editor/Data/Managed'
 Mono path[1] = 'D:/UnityEditor/2022.3.51f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/UnityEditor/2022.3.51f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/UnityEditor/2022.3.51f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003849 seconds.
-- Loaded All Assemblies, in  0.417 seconds
+Registered in 0.003573 seconds.
+- Loaded All Assemblies, in  0.446 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.331 seconds
-Domain Reload Profiling: 749ms
-	BeginReloadAssembly (114ms)
+- Finished resetting the current domain, in  0.321 seconds
+Domain Reload Profiling: 768ms
+	BeginReloadAssembly (122ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (182ms)
-		LoadAssemblies (113ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (196ms)
+		LoadAssemblies (122ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (179ms)
-			TypeCache.Refresh (177ms)
-				TypeCache.ScanAssembly (161ms)
+		AnalyzeDomain (194ms)
+			TypeCache.Refresh (191ms)
+				TypeCache.ScanAssembly (174ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (332ms)
+	FinalizeReload (322ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (276ms)
+		SetupLoadedEditorAssemblies (261ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
+			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (191ms)
-			ProcessInitializeOnLoadMethodAttributes (64ms)
+			ProcessInitializeOnLoadAttributes (184ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -122,54 +122,54 @@ Domain Reload Profiling: 749ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.734 seconds
+- Loaded All Assemblies, in  0.702 seconds
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.715 seconds
-Domain Reload Profiling: 1448ms
-	BeginReloadAssembly (174ms)
+- Finished resetting the current domain, in  0.762 seconds
+Domain Reload Profiling: 1465ms
+	BeginReloadAssembly (163ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (453ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (441ms)
 		LoadAssemblies (307ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (243ms)
-			TypeCache.Refresh (217ms)
-				TypeCache.ScanAssembly (200ms)
-			ScanForSourceGeneratedMonoScriptInfo (18ms)
+		AnalyzeDomain (226ms)
+			TypeCache.Refresh (199ms)
+				TypeCache.ScanAssembly (181ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (715ms)
+	FinalizeReload (763ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (548ms)
+		SetupLoadedEditorAssemblies (587ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (5ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (446ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (487ms)
 			ProcessInitializeOnLoadMethodAttributes (25ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 3.85 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 3.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3468 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (120.3 KB). Loaded Objects now: 3935.
-Memory consumption went from 131.9 MB to 131.8 MB.
-Total: 3.776100 ms (FindLiveObjects: 0.304000 ms CreateObjectMapping: 0.127500 ms MarkObjects: 3.178900 ms  DeleteObjects: 0.163900 ms)
+Unloading 20 unused Assets / (120.4 KB). Loaded Objects now: 3935.
+Memory consumption went from 131.8 MB to 131.6 MB.
+Total: 4.853900 ms (FindLiveObjects: 0.315600 ms CreateObjectMapping: 0.132700 ms MarkObjects: 4.234800 ms  DeleteObjects: 0.169400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -185,42 +185,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 10262.050999 seconds.
-  path: Assets/Models/coffeeMachine2.obj
-  artifactKey: Guid(c79967436a4796c4c911b19d5e5cf566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/coffeeMachine2.obj using Guid(c79967436a4796c4c911b19d5e5cf566) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1a57842bcf874ab6c1e5e59aaba83c10') in 0.218220 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 21.630470 seconds.
-  path: Assets/Models/coffeegrinder 1.obj
-  artifactKey: Guid(02c841dd1d17a4e4bbea785bc6ef3ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/coffeegrinder 1.obj using Guid(02c841dd1d17a4e4bbea785bc6ef3ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '387fc23527bf81cc8657b08620396050') in 0.063430 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 135.342470 seconds.
-  path: Assets/Models/Coffee Machine fin.obj
-  artifactKey: Guid(f040cca5fcbafc7408c35088b3109141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Coffee Machine fin.obj using Guid(f040cca5fcbafc7408c35088b3109141) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'dce9efade1e002f205d6d33d7c749cfa') in 0.064632 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
