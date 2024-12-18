@@ -15,9 +15,15 @@ D:/–î–æ–∫—É–º–µ–Ω—Ç—ã/–£—á–µ–±–∞/SpookyCoffee/SpookyCoffee
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
+<<<<<<< HEAD
 50270
 Successfully changed project path to: D:/–î–æ–∫—É–º–µ–Ω—Ç—ã/–£—á–µ–±–∞/SpookyCoffee/SpookyCoffee
 D:/–î–æ–∫—É–º–µ–Ω—Ç—ã/–£—á–µ–±–∞/SpookyCoffee/SpookyCoffee
+=======
+56618
+Successfully changed project path to: D:/GitHub/SpookyCoffee/SpookyCoffee
+D:/GitHub/SpookyCoffee/SpookyCoffee
+>>>>>>> 2096ea4ead927f15edc227c8b8daef7a0c7f1e42
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,6 +55,7 @@ D:/–î–æ–∫—É–º–µ–Ω—Ç—ã/–£—á–µ–±–∞/SpookyCoffee/SpookyCoffee
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Player connection [37876]  Target information:
 
 Player connection [37876]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 889571104 [EditorId] 889571104 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VJJCCUT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
@@ -61,6 +68,16 @@ Player connection [37876] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [37876] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 Refreshing native plugins compatible for Editor in 23.65 ms, found 3 plugins.
+=======
+Player connection [20696]  Target information:
+
+Player connection [20696]  * "[IP] 192.168.0.12 [Port] 0 [Flags] 2 [Guid] 1129131170 [EditorId] 1129131170 [Version] 1048832 [Id] WindowsEditor(7,agapie) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20696] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20696] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 6.43 ms, found 3 plugins.
+>>>>>>> 2096ea4ead927f15edc227c8b8daef7a0c7f1e42
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.51f1 (9f9d16c45e54)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.51f1/Editor/Data/Resources/UnitySubsystems
@@ -73,6 +90,7 @@ Direct3D:
     VRAM:     5921 MB
     Driver:   32.0.15.6603
 Initialize mono
+<<<<<<< HEAD
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.51f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.51f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.51f1/Editor/Data/MonoBleedingEdge/etc'
@@ -87,10 +105,27 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.913 seconds
 Domain Reload Profiling: 2158ms
 	BeginReloadAssembly (502ms)
+=======
+Mono path[0] = 'D:/Unity/Ver/2022.3.51f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Ver/2022.3.51f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/Ver/2022.3.51f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Ver/2022.3.51f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004636 seconds.
+- Loaded All Assemblies, in  0.441 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.317 seconds
+Domain Reload Profiling: 758ms
+	BeginReloadAssembly (105ms)
+>>>>>>> 2096ea4ead927f15edc227c8b8daef7a0c7f1e42
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 		CreateAndSetChildDomain (2ms)
 	RebuildCommonClasses (98ms)
 	RebuildNativeTypeToScriptingClass (32ms)
@@ -114,6 +149,31 @@ Domain Reload Profiling: 2158ms
 			BeforeProcessingInitializeOnLoad (6ms)
 			ProcessInitializeOnLoadAttributes (549ms)
 			ProcessInitializeOnLoadMethodAttributes (168ms)
+=======
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (89ms)
+	LoadAllAssembliesAndSetupDomain (193ms)
+		LoadAssemblies (105ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (190ms)
+			TypeCache.Refresh (188ms)
+				TypeCache.ScanAssembly (165ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (318ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (265ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (187ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+>>>>>>> 2096ea4ead927f15edc227c8b8daef7a0c7f1e42
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -122,6 +182,7 @@ Domain Reload Profiling: 2158ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 Symbol file data-000002AE0768CC80 doesn't match image D:\–î–æ–∫—É–º–µ–Ω—Ç—ã\–£—á–µ–±–∞\SpookyCoffee\SpookyCoffee\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file data-000002ADE4C085E0 doesn't match image D:\–î–æ–∫—É–º–µ–Ω—Ç—ã\–£—á–µ–±–∞\SpookyCoffee\SpookyCoffee\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
@@ -193,19 +254,29 @@ Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file data-000002ADC132CC70 doesn't match image D:\–î–æ–∫—É–º–µ–Ω—Ç—ã\–£—á–µ–±–∞\SpookyCoffee\SpookyCoffee\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 - Loaded All Assemblies, in 10.217 seconds
+=======
+- Loaded All Assemblies, in  0.813 seconds
+>>>>>>> 2096ea4ead927f15edc227c8b8daef7a0c7f1e42
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Finished resetting the current domain, in  1.709 seconds
 Domain Reload Profiling: 11916ms
 	BeginReloadAssembly (609ms)
+=======
+- Finished resetting the current domain, in  0.678 seconds
+Domain Reload Profiling: 1491ms
+	BeginReloadAssembly (162ms)
+>>>>>>> 2096ea4ead927f15edc227c8b8daef7a0c7f1e42
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (14ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 		CreateAndSetChildDomain (83ms)
 	RebuildCommonClasses (180ms)
 	RebuildNativeTypeToScriptingClass (53ms)
@@ -357,10 +428,29 @@ Domain Reload Profiling: 3797ms
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (1401ms)
+=======
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (560ms)
+		LoadAssemblies (386ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (272ms)
+			TypeCache.Refresh (240ms)
+				TypeCache.ScanAssembly (219ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (678ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (516ms)
+>>>>>>> 2096ea4ead927f15edc227c8b8daef7a0c7f1e42
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (19ms)
 			SetLoadedEditorAssemblies (12ms)
 			RefreshPlugins (0ms)
+<<<<<<< HEAD
 			BeforeProcessingInitializeOnLoad (178ms)
 			ProcessInitializeOnLoadAttributes (1099ms)
 			ProcessInitializeOnLoadMethodAttributes (69ms)
@@ -1635,6 +1725,23 @@ Memory consumption went from 160.1 MB to 158.3 MB.
 Total: 3.258900 ms (FindLiveObjects: 0.255800 ms CreateObjectMapping: 0.094000 ms MarkObjects: 2.530900 ms  DeleteObjects: 0.377300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+=======
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (412ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 3.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3711 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.8 MB). Loaded Objects now: 4202.
+Memory consumption went from 166.6 MB to 164.8 MB.
+Total: 4.609500 ms (FindLiveObjects: 0.336600 ms CreateObjectMapping: 0.152700 ms MarkObjects: 3.681300 ms  DeleteObjects: 0.437600 ms)
+
+>>>>>>> 2096ea4ead927f15edc227c8b8daef7a0c7f1e42
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:scripting/monoscript/fileName/CustomerManager.cs: c8d214781f7c2d9e0766e5b44460349b -> 
@@ -1650,6 +1757,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+<<<<<<< HEAD
   custom:scripting/precompiled-assembly-types:Assembly-CSharp: e6a9af3d57cbd420107e822c35ecc8b0 -> 0e02b71de7a030d13f4265469b4a1b51
 ========================================================================
 Received Prepare
@@ -5515,3 +5623,91 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:scripting/precompiled-assembly-types:Assembly-CSharp: 5cc03b3cfbe87e38768db3dbbd4e2dd1 -> 0e02b71de7a030d13f4265469b4a1b51
+=======
+========================================================================
+Received Import Request.
+  Time since last request: 14325.480808 seconds.
+  path: Assets/polyperfect/Poly Halloween/- Prefabs/Nature/Rocks/rock-a.prefab
+  artifactKey: Guid(0604ce9b58da7114aa77bfa1ef820aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Poly Halloween/- Prefabs/Nature/Rocks/rock-a.prefab using Guid(0604ce9b58da7114aa77bfa1ef820aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2224f20af95e980a428b920088e29f5a') in 0.136294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 77.159370 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/FBX/Spooky_Mushroom_B.fbx
+  artifactKey: Guid(af11329adb2ae0f49a5dd38431f18511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/FBX/Spooky_Mushroom_B.fbx using Guid(af11329adb2ae0f49a5dd38431f18511) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd34dbaa3ac80a2ff0557fc590638667c') in 0.046114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 10.631773 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Spooky_Mushroom_B.prefab
+  artifactKey: Guid(46787c0ca02578e40ab1a18b749a4ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Spooky_Mushroom_B.prefab using Guid(46787c0ca02578e40ab1a18b749a4ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9e941cb802db45a94de55b2e25d7861b') in 0.017223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Spooky_Mushroom_C.prefab
+  artifactKey: Guid(73f30cb686b247f45bee3ef5ee46fedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Spooky_Mushroom_C.prefab using Guid(73f30cb686b247f45bee3ef5ee46fedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8763e8dd43a10e77ef65ef273531e05c') in 0.015746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 90.281071 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Spooky Tree_ B.prefab
+  artifactKey: Guid(1ebd6e95b6290c540838557fa756c578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Spooky Tree_ B.prefab using Guid(1ebd6e95b6290c540838557fa756c578) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '04ed0dc57b80efa85ed6dc263f446b58') in 0.020365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Spooky Tree_ C.prefab
+  artifactKey: Guid(edb0c67f316104c448c064cc015e207c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Spooky Tree_ C.prefab using Guid(edb0c67f316104c448c064cc015e207c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '020e3b5cf035781a47addf257910553e') in 0.019240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Spooky Tree_ H.prefab
+  artifactKey: Guid(9aabdd599a2e39145b26cf3682432563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Spooky Tree_ H.prefab using Guid(9aabdd599a2e39145b26cf3682432563) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b12d343332b34badc1aad1c5bc6f8913') in 0.023289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Spooky Tree_ F.prefab
+  artifactKey: Guid(02663bb757dc5aa40b58a32b4dee0893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Spooky Tree_ F.prefab using Guid(02663bb757dc5aa40b58a32b4dee0893) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '756544f77d54a327c072f59597c92f96') in 0.022146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ŒÔÂ‡ˆËˇ ‚‚Ó‰‡/‚˚‚Ó‰‡ ·˚Î‡ ÔÂ‚‡Ì‡ ËÁ-Á‡ Á‡‚Â¯ÂÌËˇ ÔÓÚÓÍ‡ ÍÓÏ‡Ì‰ ËÎË ÔÓ Á‡ÔÓÒÛ ÔËÎÓÊÂÌËˇ.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
+>>>>>>> 2096ea4ead927f15edc227c8b8daef7a0c7f1e42
