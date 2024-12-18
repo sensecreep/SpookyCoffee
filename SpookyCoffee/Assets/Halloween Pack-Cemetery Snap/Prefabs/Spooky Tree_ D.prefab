@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8042670921315545794}
   - component: {fileID: 5222409608805516808}
   - component: {fileID: -5559488135018253452}
+  - component: {fileID: -7242473758575561963}
   m_Layer: 0
   m_Name: Spooky Tree_ D
   m_TagString: Untagged
@@ -63,7 +64,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: bdceea01753c85648939e98e0a0f5f07, type: 2}
-  - {fileID: 2100000, guid: 59674683e12e0ce428bfeb9d20fcb9ce, type: 2}
+  - {fileID: 2100000, guid: 6df874dedf9713e45aa4a46c74ff8d50, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -102,8 +103,31 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -1286894577327928290, guid: d55191fa4d3b3eb4780fd0eaf3269cee, type: 3}
+--- !u!136 &-7242473758575561963
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6014915393420732381}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 10.707476
+  m_Height: 19.678482
+  m_Direction: 1
+  m_Center: {x: 0.52602863, y: 9.839241, z: -0.11311841}

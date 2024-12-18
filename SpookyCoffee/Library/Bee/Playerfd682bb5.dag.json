@@ -150,8 +150,7 @@
         142,
         143,
         144,
-        145,
-        146
+        145
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -293,7 +292,7 @@
       "DisplayName": "Writing boot.config_tyr4.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 14388,
+      "PayloadLength": 14289,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
@@ -395,7 +394,6 @@
         "D:/GitHub/SpookyCoffee/SpookyCoffee/Library/Bee/PlayerScriptAssemblies/Unity.2D.Tilemap.Extras.dll",
         "D:/GitHub/SpookyCoffee/SpookyCoffee/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
         "D:/GitHub/SpookyCoffee/SpookyCoffee/Library/Bee/PlayerScriptAssemblies/Unity.ProBuilder.Csg.dll",
-        "D:/GitHub/SpookyCoffee/SpookyCoffee/Library/Bee/PlayerScriptAssemblies/Polyperfect.Universal.dll",
         "D:/GitHub/SpookyCoffee/SpookyCoffee/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
         "D:/GitHub/SpookyCoffee/SpookyCoffee/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
         "D:/GitHub/SpookyCoffee/SpookyCoffee/Library/Bee/PlayerScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll",
@@ -1400,18 +1398,6 @@
       "DebugActionIndex": 90
     },
     {
-      "Annotation": "CopyFiles Builds/SpookyCoffee_Data/Managed/Polyperfect.Universal.dll",
-      "DisplayName": "Copying Polyperfect.Universal.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "D:/GitHub/SpookyCoffee/SpookyCoffee/Library/Bee/PlayerScriptAssemblies/Polyperfect.Universal.dll"
-      ],
-      "Outputs": [
-        "Builds/SpookyCoffee_Data/Managed/Polyperfect.Universal.dll"
-      ],
-      "DebugActionIndex": 91
-    },
-    {
       "Annotation": "CopyFiles Builds/SpookyCoffee_Data/Managed/Unity.VisualScripting.Flow.dll",
       "DisplayName": "Copying Unity.VisualScripting.Flow.dll",
       "ActionType": "CopyFiles",
@@ -1421,7 +1407,7 @@
       "Outputs": [
         "Builds/SpookyCoffee_Data/Managed/Unity.VisualScripting.Flow.dll"
       ],
-      "DebugActionIndex": 92
+      "DebugActionIndex": 91
     },
     {
       "Annotation": "CopyFiles Builds/SpookyCoffee_Data/Managed/Unity.Timeline.dll",
@@ -1433,7 +1419,7 @@
       "Outputs": [
         "Builds/SpookyCoffee_Data/Managed/Unity.Timeline.dll"
       ],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 92
     },
     {
       "Annotation": "CopyFiles Builds/SpookyCoffee_Data/Managed/Unity.ProBuilder.Poly2Tri.dll",
@@ -1445,7 +1431,7 @@
       "Outputs": [
         "Builds/SpookyCoffee_Data/Managed/Unity.ProBuilder.Poly2Tri.dll"
       ],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 93
     },
     {
       "Annotation": "CopyFiles Builds/SpookyCoffee_Data/Managed/Unity.ProBuilder.KdTree.dll",
@@ -1457,7 +1443,7 @@
       "Outputs": [
         "Builds/SpookyCoffee_Data/Managed/Unity.ProBuilder.KdTree.dll"
       ],
-      "DebugActionIndex": 95
+      "DebugActionIndex": 94
     },
     {
       "Annotation": "CopyFiles Builds/SpookyCoffee_Data/Managed/Unity.TextMeshPro.dll",
@@ -1469,7 +1455,7 @@
       "Outputs": [
         "Builds/SpookyCoffee_Data/Managed/Unity.TextMeshPro.dll"
       ],
-      "DebugActionIndex": 96
+      "DebugActionIndex": 95
     },
     {
       "Annotation": "CopyFiles Builds/SpookyCoffee_Data/Managed/Unity.VisualScripting.State.dll",
@@ -1481,7 +1467,7 @@
       "Outputs": [
         "Builds/SpookyCoffee_Data/Managed/Unity.VisualScripting.State.dll"
       ],
-      "DebugActionIndex": 97
+      "DebugActionIndex": 96
     },
     {
       "Annotation": "CopyFiles Builds/SpookyCoffee_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
@@ -1493,7 +1479,7 @@
       "Outputs": [
         "Builds/SpookyCoffee_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
-      "DebugActionIndex": 98
+      "DebugActionIndex": 97
     },
     {
       "Annotation": "CopyFiles Builds/SpookyCoffee_Data/Managed/netstandard.dll",
@@ -1505,7 +1491,7 @@
       "Outputs": [
         "Builds/SpookyCoffee_Data/Managed/netstandard.dll"
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 98
     },
     {
       "Annotation": "CopyFiles Builds/SpookyCoffee_Data/Managed/Mono.Security.dll",
@@ -1517,7 +1503,7 @@
       "Outputs": [
         "Builds/SpookyCoffee_Data/Managed/Mono.Security.dll"
       ],
-      "DebugActionIndex": 100
+      "DebugActionIndex": 99
     },
     {
       "Annotation": "CopyFiles Builds/SpookyCoffee_Data/Managed/System.ComponentModel.Composition.dll",
@@ -1529,7 +1515,7 @@
       "Outputs": [
         "Builds/SpookyCoffee_Data/Managed/System.ComponentModel.Composition.dll"
       ],
-      "DebugActionIndex": 101
+      "DebugActionIndex": 100
     },
     {
       "Annotation": "CopyFiles Builds/SpookyCoffee_Data/Managed/System.Configuration.dll",
@@ -1541,7 +1527,7 @@
       "Outputs": [
         "Builds/SpookyCoffee_Data/Managed/System.Configuration.dll"
       ],
-      "DebugActionIndex": 102
+      "DebugActionIndex": 101
     },
     {
       "Annotation": "CopyFiles Builds/SpookyCoffee_Data/Managed/System.Core.dll",
@@ -1553,7 +1539,7 @@
       "Outputs": [
         "Builds/SpookyCoffee_Data/Managed/System.Core.dll"
       ],
-      "DebugActionIndex": 103
+      "DebugActionIndex": 102
     },
     {
       "Annotation": "CopyFiles Builds/SpookyCoffee_Data/Managed/System.Data.DataSetExtensions.dll",
@@ -1565,7 +1551,7 @@
       "Outputs": [
         "Builds/SpookyCoffee_Data/Managed/System.Data.DataSetExtensions.dll"
       ],
-      "DebugActionIndex": 104
+      "DebugActionIndex": 103
     },
     {
       "Annotation": "CopyFiles Builds/SpookyCoffee_Data/Managed/System.Data.dll",
@@ -1577,7 +1563,7 @@
       "Outputs": [
         "Builds/SpookyCoffee_Data/Managed/System.Data.dll"
       ],
-      "DebugActionIndex": 105
+      "DebugActionIndex": 104
     },
     {
       "Annotation": "CopyFiles Builds/SpookyCoffee_Data/Managed/System.Drawing.dll",
@@ -1589,7 +1575,7 @@
       "Outputs": [
         "Builds/SpookyCoffee_Data/Managed/System.Drawing.dll"
       ],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 105
     },
     {
       "Annotation": "CopyFiles Builds/SpookyCoffee_Data/Managed/System.EnterpriseServices.dll",
@@ -1601,7 +1587,7 @@
       "Outputs": [
         "Builds/SpookyCoffee_Data/Managed/System.EnterpriseServices.dll"
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 106
     },
     {
       "Annotation": "CopyFiles Builds/SpookyCoffee_Data/Managed/System.IO.Compression.FileSystem.dll",
@@ -1613,7 +1599,7 @@
       "Outputs": [
         "Builds/SpookyCoffee_Data/Managed/System.IO.Compression.FileSystem.dll"
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 107
     },
     {
       "Annotation": "CopyFiles Builds/SpookyCoffee_Data/Managed/System.IO.Compression.dll",
@@ -1625,7 +1611,7 @@
       "Outputs": [
         "Builds/SpookyCoffee_Data/Managed/System.IO.Compression.dll"
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 108
     },
     {
       "Annotation": "CopyFiles Builds/SpookyCoffee_Data/Managed/System.Net.Http.dll",
@@ -1637,7 +1623,7 @@
       "Outputs": [
         "Builds/SpookyCoffee_Data/Managed/System.Net.Http.dll"
       ],
-      "DebugActionIndex": 110
+      "DebugActionIndex": 109
     },
     {
       "Annotation": "CopyFiles Builds/SpookyCoffee_Data/Managed/System.Numerics.dll",
@@ -1649,7 +1635,7 @@
       "Outputs": [
         "Builds/SpookyCoffee_Data/Managed/System.Numerics.dll"
       ],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 110
     },
     {
       "Annotation": "CopyFiles Builds/SpookyCoffee_Data/Managed/System.Runtime.Serialization.dll",
@@ -1661,7 +1647,7 @@
       "Outputs": [
         "Builds/SpookyCoffee_Data/Managed/System.Runtime.Serialization.dll"
       ],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "CopyFiles Builds/SpookyCoffee_Data/Managed/System.Security.dll",
@@ -1673,7 +1659,7 @@
       "Outputs": [
         "Builds/SpookyCoffee_Data/Managed/System.Security.dll"
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 112
     },
     {
       "Annotation": "CopyFiles Builds/SpookyCoffee_Data/Managed/System.ServiceModel.Internals.dll",
@@ -1685,7 +1671,7 @@
       "Outputs": [
         "Builds/SpookyCoffee_Data/Managed/System.ServiceModel.Internals.dll"
       ],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 113
     },
     {
       "Annotation": "CopyFiles Builds/SpookyCoffee_Data/Managed/System.Transactions.dll",
@@ -1697,7 +1683,7 @@
       "Outputs": [
         "Builds/SpookyCoffee_Data/Managed/System.Transactions.dll"
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 114
     },
     {
       "Annotation": "CopyFiles Builds/SpookyCoffee_Data/Managed/System.Xml.Linq.dll",
@@ -1709,7 +1695,7 @@
       "Outputs": [
         "Builds/SpookyCoffee_Data/Managed/System.Xml.Linq.dll"
       ],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "CopyFiles Builds/SpookyCoffee_Data/Managed/System.Xml.dll",
@@ -1721,7 +1707,7 @@
       "Outputs": [
         "Builds/SpookyCoffee_Data/Managed/System.Xml.dll"
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "CopyFiles Builds/SpookyCoffee_Data/Managed/System.dll",
@@ -1733,7 +1719,7 @@
       "Outputs": [
         "Builds/SpookyCoffee_Data/Managed/System.dll"
       ],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "CopyFiles Builds/SpookyCoffee_Data/Managed/mscorlib.dll",
@@ -1745,20 +1731,20 @@
       "Outputs": [
         "Builds/SpookyCoffee_Data/Managed/mscorlib.dll"
       ],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
       "DisplayName": "Writing app.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 14560,
+      "PayloadOffset": 14461,
       "PayloadLength": 27,
       "PayloadDebugContentSnippet": "DefaultCompany\nSpookyCoffee",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"
       ],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "CopyFiles Builds/SpookyCoffee_Data/app.info",
@@ -1771,9 +1757,9 @@
         "Builds/SpookyCoffee_Data/app.info"
       ],
       "ToBuildDependencies": [
-        120
+        119
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "CopyFiles Builds/SpookyCoffee_Data/Resources/unity default resources",
@@ -1785,7 +1771,7 @@
       "Outputs": [
         "Builds/SpookyCoffee_Data/Resources/unity default resources"
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "CopyFiles Builds/SpookyCoffee.exe",
@@ -1797,7 +1783,7 @@
       "Outputs": [
         "Builds/SpookyCoffee.exe"
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
@@ -1809,7 +1795,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
       ],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
@@ -1821,7 +1807,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
       ],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
@@ -1833,7 +1819,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
@@ -1845,7 +1831,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/machine.config",
@@ -1857,7 +1843,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/2.0/machine.config"
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/settings.map",
@@ -1869,7 +1855,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/2.0/settings.map"
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/web.config",
@@ -1881,7 +1867,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/2.0/web.config"
       ],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
@@ -1893,7 +1879,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
@@ -1905,7 +1891,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/machine.config",
@@ -1917,7 +1903,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.0/machine.config"
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/settings.map",
@@ -1929,7 +1915,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.0/settings.map"
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/web.config",
@@ -1941,7 +1927,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.0/web.config"
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
@@ -1953,7 +1939,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
@@ -1965,7 +1951,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/machine.config",
@@ -1977,7 +1963,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.5/machine.config"
       ],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/settings.map",
@@ -1989,7 +1975,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.5/settings.map"
       ],
-      "DebugActionIndex": 139
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/web.config",
@@ -2001,7 +1987,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/4.5/web.config"
       ],
-      "DebugActionIndex": 140
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/browscap.ini",
@@ -2013,7 +1999,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/browscap.ini"
       ],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 140
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/config",
@@ -2025,7 +2011,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/config"
       ],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml",
@@ -2037,7 +2023,7 @@
       "Outputs": [
         "Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml"
       ],
-      "DebugActionIndex": 143
+      "DebugActionIndex": 142
     },
     {
       "Annotation": "CopyFiles Builds/UnityCrashHandler64.exe",
@@ -2049,7 +2035,7 @@
       "Outputs": [
         "Builds/UnityCrashHandler64.exe"
       ],
-      "DebugActionIndex": 144
+      "DebugActionIndex": 143
     },
     {
       "Annotation": "CopyFiles Builds/UnityPlayer.dll",
@@ -2061,7 +2047,7 @@
       "Outputs": [
         "Builds/UnityPlayer.dll"
       ],
-      "DebugActionIndex": 145
+      "DebugActionIndex": 144
     },
     {
       "Annotation": "Player",
@@ -2185,7 +2171,7 @@
         116,
         117,
         118,
-        119,
+        120,
         121,
         122,
         123,
@@ -2209,11 +2195,10 @@
         141,
         142,
         143,
-        144,
-        145
+        144
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 146
+      "DebugActionIndex": 145
     }
   ],
   "FileSignatures": [
@@ -2414,7 +2399,7 @@
   "EmitDataForBeeWhy": 0,
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 146
+          "Player": 145
         }
 ,  "DefaultNodes": [
     0
