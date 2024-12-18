@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7317920928833489244}
   - component: {fileID: 592137123459061026}
   - component: {fileID: 59638933183432356}
-  - component: {fileID: 477401881506539464}
+  - component: {fileID: -1628433867428713311}
   m_Layer: 0
   m_Name: Client
   m_TagString: Untagged
@@ -108,7 +108,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7902009415412593004}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &477401881506539464
+--- !u!114 &-1628433867428713311
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -117,11 +117,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7902009415412593004}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5bf1f8bd70cd36341957e5e7eefbe000, type: 3}
+  m_Script: {fileID: 11500000, guid: 5a0fdfd7c7f969741b0ce405acdca64a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointA: {fileID: 0}
-  pointB: {fileID: 0}
-  pointC: {fileID: 0}
-  speed: 4.85
-  isPointBOccupied: 0
+  patienceTime: 2
