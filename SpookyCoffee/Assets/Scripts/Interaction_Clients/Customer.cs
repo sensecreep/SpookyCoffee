@@ -80,4 +80,5 @@ public class Customer : MonoBehaviour
         Debug.Log($"{gameObject.name} leaving.");
         Destroy(gameObject); // Удаляем клиента
     }
+
 }

@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Interactable
+  - Fluid
+  - Customer
+  - Machine
   layers:
   - Default
   - TransparentFX
