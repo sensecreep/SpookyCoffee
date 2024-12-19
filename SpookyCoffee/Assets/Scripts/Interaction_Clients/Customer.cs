@@ -68,6 +68,7 @@ public class Customer : MonoBehaviour
         if (!hasReceivedOrder)
         {
             CustomerManager.Instance.RemoveCustomer(this); // Уведомляем менеджер очереди
+            Money.subMoney();
             Leave();
         }
     }

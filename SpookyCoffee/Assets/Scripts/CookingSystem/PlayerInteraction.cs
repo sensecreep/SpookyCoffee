@@ -94,6 +94,7 @@ public class PlayerInteraction : MonoBehaviour
         coffeeCup.SetActive(false);
         Customer customer = cust.GetComponent<Customer>();
         CustomerManager.Instance.RemoveCustomer(customer);
+        Money.addMoney();
         Destroy(cust);
     }
     void PickUp(GameObject obj)

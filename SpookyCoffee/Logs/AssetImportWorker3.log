@@ -1,0 +1,707 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.51f1 (9f9d16c45e54) revision 10460438'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ru' Physical Memory: 16147 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\Ver\2022.3.51f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/GitHub/SpookyCoffee/SpookyCoffee
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+55639
+Successfully changed project path to: D:/GitHub/SpookyCoffee/SpookyCoffee
+D:/GitHub/SpookyCoffee/SpookyCoffee
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14464]  Target information:
+
+Player connection [14464]  * "[IP] 192.168.0.12 [Port] 0 [Flags] 2 [Guid] 2319121709 [EditorId] 2319121709 [Version] 1048832 [Id] WindowsEditor(7,agapie) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [14464] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14464] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 5.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.51f1 (9f9d16c45e54)
+[Subsystems] Discovering subsystems at path D:/Unity/Ver/2022.3.51f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/SpookyCoffee/SpookyCoffee/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   32.0.15.6590
+Initialize mono
+Mono path[0] = 'D:/Unity/Ver/2022.3.51f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Ver/2022.3.51f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/Ver/2022.3.51f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Ver/2022.3.51f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002681 seconds.
+- Loaded All Assemblies, in  0.292 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.244 seconds
+Domain Reload Profiling: 536ms
+	BeginReloadAssembly (88ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (123ms)
+		LoadAssemblies (87ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (121ms)
+			TypeCache.Refresh (120ms)
+				TypeCache.ScanAssembly (109ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (244ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (202ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (144ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.536 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.563 seconds
+Domain Reload Profiling: 1100ms
+	BeginReloadAssembly (126ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (345ms)
+		LoadAssemblies (233ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (184ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (134ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (564ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (405ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (323ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3725 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.8 MB). Loaded Objects now: 4216.
+Memory consumption went from 170.7 MB to 168.9 MB.
+Total: 5.930500 ms (FindLiveObjects: 0.394400 ms CreateObjectMapping: 0.249900 ms MarkObjects: 4.682500 ms  DeleteObjects: 0.602400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 17111.148432 seconds.
+  path: Assets/Materials/Milk.mat
+  artifactKey: Guid(b98f3e4356770d04788afefc24e24e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Milk.mat using Guid(b98f3e4356770d04788afefc24e24e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3d80a49c62da56e529ceb4332683eb73') in 0.109530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 11.927398 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Candle_A.prefab
+  artifactKey: Guid(9296046bc6b732e4e9e83c4e12025a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Candle_A.prefab using Guid(9296046bc6b732e4e9e83c4e12025a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7e5e8b8bd5594afbb9c24f4ce8229762') in 0.043377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Candle_E.prefab
+  artifactKey: Guid(e4bbcd751e17af142aaf16985003e9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Candle_E.prefab using Guid(e4bbcd751e17af142aaf16985003e9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f8b2c746b59a0ae5f23902f60370a446') in 0.026357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Candle_Group_B.prefab
+  artifactKey: Guid(ea849c3f31297b342a05c44d4f0ccc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Candle_Group_B.prefab using Guid(ea849c3f31297b342a05c44d4f0ccc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c1d25618a67a6dac17e83dde8b0a0359') in 0.025446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Candle_F.prefab
+  artifactKey: Guid(ff3859c0f212d5640a1cd041bde7e176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Candle_F.prefab using Guid(ff3859c0f212d5640a1cd041bde7e176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e32c5b505f8fa282fd00118b70be4c55') in 0.021224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Cemetery_Pillar B.prefab
+  artifactKey: Guid(059d5d868b617554ea1cd4c6702e5ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Cemetery_Pillar B.prefab using Guid(059d5d868b617554ea1cd4c6702e5ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '96a76610f3f5b11e8e9e73d5f06373b0') in 0.020100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Dirt_tile_A.prefab
+  artifactKey: Guid(a503cde3f7f1f8140af86e37a2f86c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Dirt_tile_A.prefab using Guid(a503cde3f7f1f8140af86e37a2f86c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dc4975249c957b024c7747fb5f19ccc4') in 0.017502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Fence Wall C.prefab
+  artifactKey: Guid(b55aa1b82b5fb2140b82556015f4afea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Fence Wall C.prefab using Guid(b55aa1b82b5fb2140b82556015f4afea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3c076d8fc02cbb50e51840696ed75cac') in 0.017890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Grass A.prefab
+  artifactKey: Guid(841e9640bc1eec14aa83ebad7696804f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Grass A.prefab using Guid(841e9640bc1eec14aa83ebad7696804f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3650d6e471d4603359705c12586e518e') in 0.016904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Grass C.prefab
+  artifactKey: Guid(019de9a3bef75c441be1a5b14092a248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Grass C.prefab using Guid(019de9a3bef75c441be1a5b14092a248) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '03930f8b1b999abdea3ad98e5047d49b') in 0.017733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Grass_tile_corner_B.prefab
+  artifactKey: Guid(673a81e485c9ee84c932507d67581258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Grass_tile_corner_B.prefab using Guid(673a81e485c9ee84c932507d67581258) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dba810b83e4b987fe02c23f8f3855cda') in 0.018028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Grass_tile_corner_D.prefab
+  artifactKey: Guid(a0a192d3a75b7f34b913d00d6a408e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Grass_tile_corner_D.prefab using Guid(a0a192d3a75b7f34b913d00d6a408e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '19f6a2531e47aa8010a54a69c6607883') in 0.017137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Grass_tile_in_C.prefab
+  artifactKey: Guid(c737b1adb3124ef46aa318f6e17a001a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Grass_tile_in_C.prefab using Guid(c737b1adb3124ef46aa318f6e17a001a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8fa9e0368357d8137f286366e10a1d58') in 0.017763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Gravestone S2.prefab
+  artifactKey: Guid(ddf61ec92a666fd45980b19a92e1186f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Gravestone S2.prefab using Guid(ddf61ec92a666fd45980b19a92e1186f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'da023de7caf0442f74d7c1bfb0266c09') in 0.017841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Gravestone_B_Destroyed.prefab
+  artifactKey: Guid(7b456eda45ee7f24b881e4fd9c1ccd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Gravestone_B_Destroyed.prefab using Guid(7b456eda45ee7f24b881e4fd9c1ccd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1c21f13d4d886c22303f1e9d81eece40') in 0.018414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Gravestone_C_Destroyed.prefab
+  artifactKey: Guid(ab1bb43c94e63874dab4a2ecb75240cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Gravestone_C_Destroyed.prefab using Guid(ab1bb43c94e63874dab4a2ecb75240cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '28854d6537ec681cfe4cb49ea8743898') in 0.014689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Gravestone_C.prefab
+  artifactKey: Guid(36298ee4e4bdc4643bd8f5385e47c8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Gravestone_C.prefab using Guid(36298ee4e4bdc4643bd8f5385e47c8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '16682e294410e02ae9bbaefe05523a25') in 0.014881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Gravestone_A_Destroyed.prefab
+  artifactKey: Guid(fe18536985b358241a8ea75aa8c20f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Gravestone_A_Destroyed.prefab using Guid(fe18536985b358241a8ea75aa8c20f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9b8ff10f2f0c9a0c01ee7e8fabbc1424') in 0.025136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Gravestone_D.prefab
+  artifactKey: Guid(68552a41bc8e24d4b8b869dfc1ae51df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Gravestone_D.prefab using Guid(68552a41bc8e24d4b8b869dfc1ae51df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f39503d34a412674d42f46b21943e616') in 0.014144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Grass_tile_mid_A.prefab
+  artifactKey: Guid(8fa247ec3caa7aa4ca06fff9559f656a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Grass_tile_mid_A.prefab using Guid(8fa247ec3caa7aa4ca06fff9559f656a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '58623d4db6fd81d1f4896a227a2ae480') in 0.024383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Grass_tile_mid_C.prefab
+  artifactKey: Guid(a97e1ac0d41f89a43945af96a89eea20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Grass_tile_mid_C.prefab using Guid(a97e1ac0d41f89a43945af96a89eea20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b7a4690754c1069b3c85db0568111a0a') in 0.026299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Grass_tile_mid_D.prefab
+  artifactKey: Guid(a6642ff3ddabfe94f9f544fe5e950a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Grass_tile_mid_D.prefab using Guid(a6642ff3ddabfe94f9f544fe5e950a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c6bb0103e854270614804642dc8d9d43') in 0.028813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Candle_G.prefab
+  artifactKey: Guid(c69daa5f72dbe2a4c95490c153f5495a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Candle_G.prefab using Guid(c69daa5f72dbe2a4c95490c153f5495a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '705e5b40c933f067b26f302d86708b0e') in 0.023707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Dirt_tile_D.prefab
+  artifactKey: Guid(3918c546cc5644b46b4a103a84f47dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Dirt_tile_D.prefab using Guid(3918c546cc5644b46b4a103a84f47dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3637e174516b0996bac095bf386596f8') in 0.014828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Fence_wall_corner_C.prefab
+  artifactKey: Guid(31034aa7e90fe4847babda561dbdf2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Fence_wall_corner_C.prefab using Guid(31034aa7e90fe4847babda561dbdf2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '362635d2ecadbc00fec30a278ded96d5') in 0.024640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Fence_wall_corner_B.prefab
+  artifactKey: Guid(1285c19972034a94c9b934a5d404108a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Fence_wall_corner_B.prefab using Guid(1285c19972034a94c9b934a5d404108a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3b3853786953bd2ab7f1e2d56c27351d') in 0.028466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Candle_B.prefab
+  artifactKey: Guid(7d12a1fa43a73ed4aa391535fdfbfa1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Candle_B.prefab using Guid(7d12a1fa43a73ed4aa391535fdfbfa1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ed3282d8e01aaf795cbf531473b61f6b') in 0.026322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 2.287853 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Gravestone_E.prefab
+  artifactKey: Guid(eb9dbc698ed9cee438ea8c68bdccdd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Gravestone_E.prefab using Guid(eb9dbc698ed9cee438ea8c68bdccdd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3b3df8a681f57da6356cded34f93bf6f') in 0.013140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Gravestone_E_Destroyed.prefab
+  artifactKey: Guid(58bbf4f7d573bc545b8a244b7a96a803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Gravestone_E_Destroyed.prefab using Guid(58bbf4f7d573bc545b8a244b7a96a803) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '27c487ac989781c52641258fb0f67c40') in 0.013665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Gravestone_G_Destroyed.prefab
+  artifactKey: Guid(d031b7d3da7aa704cbcae44dc93c5da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Gravestone_G_Destroyed.prefab using Guid(d031b7d3da7aa704cbcae44dc93c5da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0a541d5cc8306a884a887d0ed5aeb775') in 0.019289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Gravestone_H.prefab
+  artifactKey: Guid(2a1e167656ef5664a9c7f8081fa23081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Gravestone_H.prefab using Guid(2a1e167656ef5664a9c7f8081fa23081) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8b73d001284a45915d477fc351d9e3f1') in 0.013077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Head_Candle_C.prefab
+  artifactKey: Guid(3689431dc4e48cc45aa1b7a8d1121cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Head_Candle_C.prefab using Guid(3689431dc4e48cc45aa1b7a8d1121cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0d08baf4ce1d0e76d17fc023e845b75f') in 0.024080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Gravestone_G.prefab
+  artifactKey: Guid(1e78cb3325ea1954fae4b0eaa8e5984d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Gravestone_G.prefab using Guid(1e78cb3325ea1954fae4b0eaa8e5984d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c974ba5e6af16c5ee23a3ed7340a0560') in 0.030981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Head_Candle_A.prefab
+  artifactKey: Guid(1ec8def73bb35c1468e0c3604ac21aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Head_Candle_A.prefab using Guid(1ec8def73bb35c1468e0c3604ac21aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9cda215d9aa2ca4a5c456293e75521a8') in 0.025161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.183466 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Lantren_B.prefab
+  artifactKey: Guid(f45eef0f8c128c74dbccd45b1e00e669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Lantren_B.prefab using Guid(f45eef0f8c128c74dbccd45b1e00e669) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e7551850c377687fd7d8d3abf0c85745') in 0.024580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Pickaxe.prefab
+  artifactKey: Guid(7d8439203699ecc4297cc5f4eced9d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Pickaxe.prefab using Guid(7d8439203699ecc4297cc5f4eced9d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '48dafc4628ebacec35982ea4499b5cbf') in 0.023864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Pumpkin_C.prefab
+  artifactKey: Guid(bad15bf9648b35346a364933a7c3600b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Pumpkin_C.prefab using Guid(bad15bf9648b35346a364933a7c3600b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4f8fc5081944dc505ba1b6a970070306') in 0.025028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Pumpkin_F.prefab
+  artifactKey: Guid(cfc2c4ebb18c1654fb15374a115085e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Pumpkin_F.prefab using Guid(cfc2c4ebb18c1654fb15374a115085e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '835a28db7de77c944ce7449547d8f4f3') in 0.027843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Rock_B.prefab
+  artifactKey: Guid(c410ff09ab71fd945a0f40cf6973f04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Rock_B.prefab using Guid(c410ff09ab71fd945a0f40cf6973f04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '03e66072c2e1368697b1c6ca954a50fe') in 0.027724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Pumpkin_D.prefab
+  artifactKey: Guid(eafefd083173b65479b88f34a8130b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Pumpkin_D.prefab using Guid(eafefd083173b65479b88f34a8130b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f2246082428f1ca8e3e441293fab0214') in 0.027852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.153577 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Sarcophagus_B.prefab
+  artifactKey: Guid(f42d59c7e9b6d964ba7a15739531ada0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Sarcophagus_B.prefab using Guid(f42d59c7e9b6d964ba7a15739531ada0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e9c4e4705394f4dd149578bd031a8afb') in 0.019760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Skeleton.prefab
+  artifactKey: Guid(643efefdca72cc04ca303b70299ac004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Skeleton.prefab using Guid(643efefdca72cc04ca303b70299ac004) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ef1d2a97d48c0aa7cde0d34f22657567') in 0.020818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Skeleton_left_arm_A.prefab
+  artifactKey: Guid(afefdb0547fbe6448bbc31b63d2f358c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Skeleton_left_arm_A.prefab using Guid(afefdb0547fbe6448bbc31b63d2f358c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '30037e42a567a1a5ea41c64ddc6dedc5') in 0.019670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Skeleton_left_arm_B.prefab
+  artifactKey: Guid(a5477182b9489cc45a3d3704fc3c2c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Skeleton_left_arm_B.prefab using Guid(a5477182b9489cc45a3d3704fc3c2c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c085f5efceb119795a81e8b4b8ffef88') in 0.024131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/skeleton_left_leg_B.prefab
+  artifactKey: Guid(ffcc371eb5db8b542986f8e0014b48a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/skeleton_left_leg_B.prefab using Guid(ffcc371eb5db8b542986f8e0014b48a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8b5be59bace8265d7dd404245d93c240') in 0.024831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.069761 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Skeleton_right_leg_A.prefab
+  artifactKey: Guid(979a647151237734c935c1cc71b19c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Skeleton_right_leg_A.prefab using Guid(979a647151237734c935c1cc71b19c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fe38eb353f3fe25ba9ef60e8fa7ada5f') in 0.018423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Spooky Tree_ B.prefab
+  artifactKey: Guid(1ebd6e95b6290c540838557fa756c578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Spooky Tree_ B.prefab using Guid(1ebd6e95b6290c540838557fa756c578) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4866bbd682586fb1252923df5d36db41') in 0.022059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Spooky Tree_ F.prefab
+  artifactKey: Guid(02663bb757dc5aa40b58a32b4dee0893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Spooky Tree_ F.prefab using Guid(02663bb757dc5aa40b58a32b4dee0893) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '686aa04d7777aac1b326e15a079063cc') in 0.024123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.431679 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Spooky_Mushroom_C.prefab
+  artifactKey: Guid(73f30cb686b247f45bee3ef5ee46fedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Spooky_Mushroom_C.prefab using Guid(73f30cb686b247f45bee3ef5ee46fedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd65d9859ebeb48fc4045b0a84b9884c8') in 0.012686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.006973 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Stone_patterns_D.prefab
+  artifactKey: Guid(e24241eb4fa82ef45b6545ca8ffcc479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Stone_patterns_D.prefab using Guid(e24241eb4fa82ef45b6545ca8ffcc479) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '98b9f0151ce0809bb2b8f84ddd3588d9') in 0.018807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.005468 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Street lamp_A.prefab
+  artifactKey: Guid(065df652f7951be43937b6a03394c689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Street lamp_A.prefab using Guid(065df652f7951be43937b6a03394c689) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3900c71a6efb0a2ca9772f51eba17b31') in 0.022079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.761961 seconds.
+  path: Assets/Halloween Pack-Cemetery Snap/Prefabs/Wooden Coffin A.prefab
+  artifactKey: Guid(4e711aeb7b12c3b488c081b3025a9ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween Pack-Cemetery Snap/Prefabs/Wooden Coffin A.prefab using Guid(4e711aeb7b12c3b488c081b3025a9ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'af0daf8f996aa9fc2c0144cd25a67028') in 0.018926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

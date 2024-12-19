@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - CustomerManager
     - Interactable
     - InteractionPointSpawner
+    - Money
     - MoveCamera
     - PlayerCam
     - PlayerInteraction
@@ -144,62 +145,70 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 84
       Script: {instanceID: 0}
     - Class: 89
+      Script: {instanceID: 0}
+    - Class: 102
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1644}
+      Script: {instanceID: 1670}
     - Class: 114
-      Script: {instanceID: 2366}
+      Script: {instanceID: 2392}
     - Class: 114
-      Script: {instanceID: 2506}
+      Script: {instanceID: 2532}
     - Class: 114
-      Script: {instanceID: 2592}
+      Script: {instanceID: 2618}
     - Class: 114
-      Script: {instanceID: 2842}
+      Script: {instanceID: 2868}
     - Class: 114
-      Script: {instanceID: 3074}
+      Script: {instanceID: 3100}
     - Class: 114
-      Script: {instanceID: 3268}
+      Script: {instanceID: 3294}
     - Class: 114
-      Script: {instanceID: 3914}
+      Script: {instanceID: 3940}
     - Class: 114
-      Script: {instanceID: 4290}
+      Script: {instanceID: 4316}
     - Class: 114
-      Script: {instanceID: 4552}
+      Script: {instanceID: 4578}
     - Class: 114
-      Script: {instanceID: 4562}
+      Script: {instanceID: 4588}
     - Class: 114
-      Script: {instanceID: 4836}
+      Script: {instanceID: 4862}
     - Class: 114
-      Script: {instanceID: 4996}
+      Script: {instanceID: 5022}
     - Class: 114
-      Script: {instanceID: 5158}
+      Script: {instanceID: 5184}
     - Class: 114
-      Script: {instanceID: 5324}
+      Script: {instanceID: 5350}
     - Class: 114
-      Script: {instanceID: 5356}
+      Script: {instanceID: 5382}
     - Class: 114
-      Script: {instanceID: 5658}
+      Script: {instanceID: 5684}
     - Class: 114
-      Script: {instanceID: 5946}
+      Script: {instanceID: 5972}
     - Class: 114
-      Script: {instanceID: 6470}
+      Script: {instanceID: 6496}
     - Class: 114
-      Script: {instanceID: 6840}
+      Script: {instanceID: 6866}
     - Class: 114
-      Script: {instanceID: 7088}
+      Script: {instanceID: 7114}
     - Class: 114
-      Script: {instanceID: 7176}
+      Script: {instanceID: 7202}
     - Class: 114
-      Script: {instanceID: 7562}
+      Script: {instanceID: 7588}
     - Class: 114
-      Script: {instanceID: 8104}
+      Script: {instanceID: 8130}
+    - Class: 114
+      Script: {instanceID: 521108}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -207,6 +216,8 @@ ScriptsOnlyBuild:
     - Class: 135
       Script: {instanceID: 0}
     - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 154
       Script: {instanceID: 0}
@@ -1307,6 +1318,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0db164e8b213b3f1f5f37ca8e0e9a68d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Money
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainScene.unity

@@ -316,6 +316,7 @@
 "Assets/Scripts/CookingSystem/PlayerInteraction.cs"
 "Assets/Scripts/Interaction_Clients/Customer.cs"
 "Assets/Scripts/Interaction_Clients/CustomerManager.cs"
+"Assets/Scripts/Money.cs"
 "Assets/Scripts/Movements/MoveCamera.cs"
 "Assets/Scripts/Movements/PlayerCam.cs"
 "Assets/Scripts/Movements/PlayerMovement.cs"
