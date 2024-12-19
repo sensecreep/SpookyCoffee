@@ -15,7 +15,6 @@ public class Customer : MonoBehaviour
         targetPoint = target; // Указываем, куда двигаться
         remainingPatience = patienceTime;
         isPatienceTimerRunning = false;
-        Debug.Log($"{gameObject.name} initialized at position {targetPoint.position}");
     }
 
     private void Update()
@@ -59,7 +58,6 @@ public class Customer : MonoBehaviour
 
     private IEnumerator CheckPatience()
     {
-        Debug.Log($"{gameObject.name} started patience timer.");
         while (remainingPatience > 0)
         {
             remainingPatience -= Time.deltaTime;
@@ -69,7 +67,6 @@ public class Customer : MonoBehaviour
         // Если терпение закончилось и заказ не получен
         if (!hasReceivedOrder)
         {
-            Debug.Log($"{gameObject.name} ran out of patience and left.");
             CustomerManager.Instance.RemoveCustomer(this); // Уведомляем менеджер очереди
             Leave();
         }
@@ -77,7 +74,6 @@ public class Customer : MonoBehaviour
 
     private void Leave()
     {
-        Debug.Log($"{gameObject.name} leaving.");
         Destroy(gameObject); // Удаляем клиента
     }
 

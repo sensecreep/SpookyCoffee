@@ -80,7 +80,6 @@ public class CustomerManager : MonoBehaviour
             tempQueue.Remove(customer);
             customerQueue = new Queue<Customer>(tempQueue);
 
-            Debug.Log($"Customer {customer.gameObject.name} removed from queue.");
             ReorganizeQueue(); // Перемещаем остальных
         }
     }

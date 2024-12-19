@@ -1,10 +1,12 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
+
 
 public class PlayerInteraction : MonoBehaviour
 {
     public float interactionRange = 2f; // Дистанция взаимодействия
-    public Text interactionUI; // UI элемент для подсказки (Text компонент)
+    public TMP_Text interactionUI; // UI элемент для подсказки (Text компонент)
 
     private GameObject currentObject = null; // Объект, на который смотрит игрок
     bool isEq = false;
@@ -55,15 +57,14 @@ public class PlayerInteraction : MonoBehaviour
                     PickUp(currentObject);
                 }
             }
-            if (hit.collider.CompareTag("Customer")) // Проверка на интерактивный объект
+            else if (hit.collider.CompareTag("Customer")) // Проверка на интерактивный объект
             {
                 if (Input.GetKeyDown(KeyCode.E) && coffeeCup.activeSelf)
                 {
-                    Destroy(hit.collider.gameObject);
-                    CoffeeServe();
+                    CoffeeServe(hit.collider.gameObject);
                 }
             }
-            if (hit.collider.CompareTag("Machine")) // Проверка на интерактивный объект
+            else if (hit.collider.CompareTag("Machine")) // Проверка на интерактивный объект
             {
                 interactionUI.gameObject.SetActive(true); // Показать подсказку
                 interactionUI.text = "Press E to interact"; // Меняем текст подсказки
@@ -80,16 +81,20 @@ public class PlayerInteraction : MonoBehaviour
                 interactionUI.gameObject.SetActive(false); // Скрыть подсказку
                 currentObject = null;
             }
+
         }
-        else
+        if (Input.GetKeyDown(KeyCode.Q) && isEq)
         {
-            interactionUI.gameObject.SetActive(false); // Скрыть подсказку
-            currentObject = null;
+            Drop();
         }
     }
-    void CoffeeServe()
+    void CoffeeServe(GameObject cust)
     {
+        isEq = false;
         coffeeCup.SetActive(false);
+        Customer customer = cust.GetComponent<Customer>();
+        CustomerManager.Instance.RemoveCustomer(customer);
+        Destroy(cust);
     }
     void PickUp(GameObject obj)
     {
@@ -142,6 +147,16 @@ public class PlayerInteraction : MonoBehaviour
             cup.SetActive(false);
             coffeeCup.SetActive(true);
         }
+    }
+    void Drop()
+    {
+        coffeeCup.SetActive(false);
+        coffee.SetActive(false);
+        milk.SetActive(false);
+        holder.SetActive(false);
+        pitch.SetActive(false);
+        cup.SetActive(false);
+        isEq = false;
     }
      
 }

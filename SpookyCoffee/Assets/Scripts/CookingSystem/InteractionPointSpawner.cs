@@ -1,11 +1,12 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class InteractionPointSpawner : MonoBehaviour
 {
     public GameObject pointPrefab; // Префаб для создания точки
     public LayerMask InterLayerPoint; // Маска слоя для интерактивных объектов
-    public Text interactionUI; // Текст для подсказки
+    public TMP_Text interactionUI; // Текст для подсказки
 
     private GameObject currentPoint; // Текущая точка
 
